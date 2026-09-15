@@ -1,0 +1,18 @@
+{
+  "version": "0.2",
+  "updatedAt": "2026-09-15T13:36:00+02:00",
+  "status": "waiting_for_real_bulletin",
+  "area": "Gravelines / Dunkerque / Calais — jusqu'à environ 50 km au large",
+  "score": 0,
+  "level": "Données réelles non chargées",
+  "bestWindow": "—",
+  "confidence": "Non calculée",
+  "days": [],
+  "tuna": {
+    "scope": "Quimper → frontière néerlandaise",
+    "observed": "Aucun signal récent confirmé publié",
+    "caught": "Aucun signal récent confirmé publié",
+    "affectsBarScore": false
+  },
+  "navigationWarning": "Les secteurs affichés sont des références de pêche, pas des routes de navigation."
+}

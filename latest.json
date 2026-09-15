@@ -1,18 +1,27 @@
 {
   "version": "0.2",
-  "updatedAt": "2026-09-15T13:36:00+02:00",
-  "status": "waiting_for_real_bulletin",
+  "updatedAt": "2026-09-15T13:45:00+02:00",
+  "status": "published_cautious",
   "area": "Gravelines / Dunkerque / Calais — jusqu'à environ 50 km au large",
-  "score": 0,
-  "level": "Données réelles non chargées",
-  "bestWindow": "—",
-  "confidence": "Non calculée",
-  "days": [],
+  "score": 79,
+  "level": "Bon — estimation prudente",
+  "bestWindow": "11:20 – 14:30",
+  "confidence": "Moyenne — marées vérifiées, certaines données océanographiques fines et observations biologiques récentes manquent",
+  "days": [
+    {"day":"Aujourd'hui 15/09","score":79,"level":"Bon","zone":"RID08 • RID09 • RID10 • RID06 • RID04","window":"11:20 – 14:30"},
+    {"day":"Mer. 16/09","score":70,"level":"Bon","zone":"RID08 • RID09 • RID07","window":"11:50 – 14:30"},
+    {"day":"Jeu. 17/09","score":55,"level":"Faible","zone":"RID07 • RID11 • RID12","window":"12:20 – 14:30"},
+    {"day":"Ven. 18/09","score":61,"level":"Moyen","zone":"RID07 • RID08 • RID11","window":"13:00 – 15:30"},
+    {"day":"Sam. 19/09","score":54,"level":"Faible","zone":"RID07 • RID11 • RID12","window":"14:00 – 16:30"},
+    {"day":"Dim. 20/09","score":52,"level":"Faible","zone":"RID11 • RID12 • RID18","window":"15:15 – 17:30"},
+    {"day":"Lun. 21/09","score":58,"level":"Faible","zone":"RID08 • RID11 • RID12","window":"Autour de la renverse"}
+  ],
   "tuna": {
     "scope": "Quimper → frontière néerlandaise",
-    "observed": "Aucun signal récent confirmé publié",
-    "caught": "Aucun signal récent confirmé publié",
+    "observed": "Aucun signal récent fiable confirmé dans les sources publiques consultées",
+    "caught": "Aucune capture récente fiable confirmée dans les sources publiques consultées",
     "affectsBarScore": false
   },
+  "dataQuality": "Le score ne doit pas être interprété comme une certitude de capture. Les observations récentes géolocalisées de poissons-fourrage, oiseaux, captures de bar, zooplancton, chlorophylle, turbidité, salinité et fronts thermiques fins n'ont pas toutes pu être confirmées publiquement.",
   "navigationWarning": "Les secteurs affichés sont des références de pêche, pas des routes de navigation."
 }

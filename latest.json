@@ -1,15 +1,29 @@
 {
-  "version": "0.3",
-  "updatedAt": "2026-09-16T12:00:00+02:00",
+  "version": "0.4",
+  "updatedAt": "2026-09-17T16:10:00+02:00",
   "status": "published_cautious",
   "area": "Gravelines / Dunkerque / Calais — jusqu'à environ 50 km au large",
-  "score": 70,
-  "level": "Bon — estimation prudente",
-  "bestWindow": "11:50 – 14:30",
-  "confidence": "Moyenne — prévision du 16/09 issue du bulletin publié, certaines données océanographiques fines et observations biologiques récentes restent à confirmer",
+  "score": 55,
+  "level": "Faible — estimation prudente",
+  "bestWindow": "12:20 – 14:30",
+  "confidence": "Moyenne-faible — bulletin recalé sur le 17/09 à partir de la prévision publiée la veille ; les observations biologiques et données océanographiques fines récentes restent à confirmer",
+  "topZones": ["RID07", "RID11", "RID12"],
+  "factors": {
+    "forage": "Non confirmé récemment",
+    "currents": "À confirmer avec les données fines du jour",
+    "bottomStructure": "RID07 / RID11 / RID12 retenus comme secteurs de référence",
+    "zooplankton": "Donnée récente non confirmée",
+    "turbidity": "Donnée récente non confirmée",
+    "thermalFront": "Donnée récente non confirmée",
+    "tideReversal": "Fenêtre de pêche publiée : 12:20 – 14:30",
+    "chlorophyll": "Donnée récente non confirmée",
+    "salinity": "Donnée récente non confirmée",
+    "windSwellDrift": "À confirmer avant sortie",
+    "seasonalMigration": "Facteur saisonnier pris en compte avec prudence",
+    "lightTime": "Créneau central de journée retenu"
+  },
   "days": [
-    {"day":"Aujourd'hui 16/09","score":70,"level":"Bon","zone":"RID08 • RID09 • RID07","window":"11:50 – 14:30"},
-    {"day":"Jeu. 17/09","score":55,"level":"Faible","zone":"RID07 • RID11 • RID12","window":"12:20 – 14:30"},
+    {"day":"Aujourd'hui 17/09","score":55,"level":"Faible","zone":"RID07 • RID11 • RID12","window":"12:20 – 14:30"},
     {"day":"Ven. 18/09","score":61,"level":"Moyen","zone":"RID07 • RID08 • RID11","window":"13:00 – 15:30"},
     {"day":"Sam. 19/09","score":54,"level":"Faible","zone":"RID07 • RID11 • RID12","window":"14:00 – 16:30"},
     {"day":"Dim. 20/09","score":52,"level":"Faible","zone":"RID11 • RID12 • RID18","window":"15:15 – 17:30"},
@@ -21,6 +35,6 @@
     "caught": "Aucune capture récente fiable confirmée dans les sources publiques consultées",
     "affectsBarScore": false
   },
-  "dataQuality": "Le score ne doit pas être interprété comme une certitude de capture. Les observations récentes géolocalisées de poissons-fourrage, oiseaux, captures de bar, zooplancton, chlorophylle, turbidité, salinité et fronts thermiques fins n'ont pas toutes pu être confirmées publiquement.",
+  "dataQuality": "Le score ne doit pas être interprété comme une certitude de capture. Les champs non confirmés restent explicitement signalés et ne sont pas inventés.",
   "navigationWarning": "Les secteurs affichés sont des références de pêche, pas des routes de navigation."
 }

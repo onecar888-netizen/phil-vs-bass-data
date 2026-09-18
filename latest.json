@@ -1,33 +1,38 @@
 {
-  "version": "0.4",
-  "updatedAt": "2026-09-17T16:10:00+02:00",
+  "version": "0.5",
+  "updatedAt": "2026-09-18T14:20:00+02:00",
   "status": "published_cautious",
   "area": "Gravelines / Dunkerque / Calais — jusqu'à environ 50 km au large",
-  "score": 55,
-  "level": "Faible — estimation prudente",
-  "bestWindow": "12:20 – 14:30",
-  "confidence": "Moyenne-faible — bulletin recalé sur le 17/09 à partir de la prévision publiée la veille ; les observations biologiques et données océanographiques fines récentes restent à confirmer",
-  "topZones": ["RID07", "RID11", "RID12"],
+  "score": 61,
+  "level": "Moyen — estimation prudente",
+  "bestWindow": "13:00 – 15:30",
+  "confidence": "Moyenne — marée et météo marine du 18/09 actualisées ; les observations biologiques et données océanographiques fines restent à confirmer",
+  "tide": "BM 12:29 • PM 18:04 • coeff. 49/41",
+  "wind": "O 11–13 nd • raf. 21 nd",
+  "sea": "O 0,8 m • période 4 s",
+  "topZones": ["RID07", "RID08", "RID11"],
   "factors": {
     "forage": "Non confirmé récemment",
-    "currents": "À confirmer avec les données fines du jour",
-    "bottomStructure": "RID07 / RID11 / RID12 retenus comme secteurs de référence",
+    "currents": "Courants de morte-eau relative, coefficients 49/41",
+    "bottomStructure": "RID07 / RID08 / RID11 retenus comme secteurs de référence",
     "zooplankton": "Donnée récente non confirmée",
     "turbidity": "Donnée récente non confirmée",
     "thermalFront": "Donnée récente non confirmée",
-    "tideReversal": "Fenêtre de pêche publiée : 12:20 – 14:30",
+    "tideReversal": "BM Dunkerque 12:29 ; créneau retenu 13:00 – 15:30",
     "chlorophyll": "Donnée récente non confirmée",
     "salinity": "Donnée récente non confirmée",
-    "windSwellDrift": "À confirmer avant sortie",
+    "windSwellDrift": "Vent d'ouest 11–13 nd et mer d'ouest ~0,8 m sur le créneau",
     "seasonalMigration": "Facteur saisonnier pris en compte avec prudence",
-    "lightTime": "Créneau central de journée retenu"
+    "lightTime": "Créneau d'après-midi retenu"
   },
   "days": [
-    {"day":"Aujourd'hui 17/09","score":55,"level":"Faible","zone":"RID07 • RID11 • RID12","window":"12:20 – 14:30"},
-    {"day":"Ven. 18/09","score":61,"level":"Moyen","zone":"RID07 • RID08 • RID11","window":"13:00 – 15:30"},
+    {"day":"Aujourd'hui 18/09","score":61,"level":"Moyen","zone":"RID07 • RID08 • RID11","window":"13:00 – 15:30"},
     {"day":"Sam. 19/09","score":54,"level":"Faible","zone":"RID07 • RID11 • RID12","window":"14:00 – 16:30"},
     {"day":"Dim. 20/09","score":52,"level":"Faible","zone":"RID11 • RID12 • RID18","window":"15:15 – 17:30"},
-    {"day":"Lun. 21/09","score":58,"level":"Faible","zone":"RID08 • RID11 • RID12","window":"Autour de la renverse"}
+    {"day":"Lun. 21/09","score":58,"level":"Faible","zone":"RID08 • RID11 • RID12","window":"Autour de la renverse"},
+    {"day":"Mar. 22/09","score":60,"level":"Moyen","zone":"RID07 • RID08 • RID11","window":"À confirmer"},
+    {"day":"Mer. 23/09","score":62,"level":"Moyen","zone":"RID08 • RID11 • RID12","window":"À confirmer"},
+    {"day":"Jeu. 24/09","score":59,"level":"Faible","zone":"RID07 • RID11 • RID12","window":"À confirmer"}
   ],
   "tuna": {
     "scope": "Quimper → frontière néerlandaise",
@@ -35,6 +40,6 @@
     "caught": "Aucune capture récente fiable confirmée dans les sources publiques consultées",
     "affectsBarScore": false
   },
-  "dataQuality": "Le score ne doit pas être interprété comme une certitude de capture. Les champs non confirmés restent explicitement signalés et ne sont pas inventés.",
+  "dataQuality": "Les champs non confirmés restent explicitement signalés et ne sont pas inventés. Marée : Dunkerque 18/09. Vent et mer : prévision marine Dunkerque pour le créneau.",
   "navigationWarning": "Les secteurs affichés sont des références de pêche, pas des routes de navigation."
 }
